@@ -1,27 +1,9 @@
-# Roteamento
+## ✨ Roteamento em Angular ✨
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+---
 
-## Development server
+###### É o processo de navegação entre diferentes componentes da aplicação. Isso é feito por meio do mapeamento de URLs para componentes específicos, permitindo que o usuário navegue pela aplicação sem precisar recarregar a página inteira. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+###### O Angular possui um módulo de roteamento que pode ser importado em um aplicativo Angular, esse módulo fornece um serviço de roteamento e diretivas que podem ser usadas para definir as rotas da aplicação.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+###### Ao executar o comando `npm i @angular/router`, será instalado o pacote mais recente de roteamento oficial do Angular. O prefixo "@angular/" indica que o pacote é mantido pela equipe do Angular e faz parte do ecossistema oficial da biblioteca.
