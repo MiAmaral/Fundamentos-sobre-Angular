@@ -1,0 +1,4 @@
+<img [src]="urlImagem" width="300"> <!-- Utilizando o Property binding -->
+<p>Nome: {{ nome | uppercase }}</p> <!--  Utilizando o pipe uppercase -->
+<p>Data de Nascimento: {{ dataNascimento | date:"dd/MM/yyyy" }}</p> <!--  Utilizando o pipe date -->
+<button type="button" (click)="mostrarDataNascimento()">Mostrar data de nascimento</button><!-- Utilizando o Event binding -->

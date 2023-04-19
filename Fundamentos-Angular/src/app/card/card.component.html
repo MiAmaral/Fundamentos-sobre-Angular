@@ -1,0 +1,12 @@
+<div class="container" [ngStyle]="{'background-color': cor}">
+
+    <h2>{{ titulo }}</h2>
+
+    <div class="content">
+        <ng-content></ng-content>
+    </div>
+
+</div>
+
+<!-- ng-content é uma diretiva do Angular que permite projetar (ou transcluir) o conteúdo de um componente filho em um componente pai. É usada para criar componentes mais flexíveis e reutilizáveis, permitindo que o componente pai controle o conteúdo que é exibido no componente filho.
+O uso básico da diretiva ng-content envolve a criação de um ponto de inserção no componente pai onde o conteúdo do componente filho será projetado. Para isso, você deve adicionar a diretiva <ng-content> ao template do componente pai -->

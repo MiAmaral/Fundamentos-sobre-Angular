@@ -1,0 +1,6 @@
+<h2>Two-Way Data Binding</h2> <!-- Muito utilizado para formulários -->
+
+<label for="nome">Digite o nome: </label>
+<!--[(ngModel)] - Diretiva para two-way data binding -->
+<input type="text" [(ngModel)]="nome"> 
+<p>Nome digitado: {{ nome }}</p>
