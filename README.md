@@ -48,7 +48,7 @@ São classes que fornecem funcionalidades compartilhadas entre vários component
 
 • *Diretivas*
 
-São elementos que adicionam comportamento a um componente. Elas podem ser estruturais, alterando a estrutura do DOM, ou atributivas, adicionando comportamento a um elemento existente. As diretivas são definidas por meio de uma classe TypeScript decorada com o @Directive.Em outras palavras, elas são marcadores no HTML que informam ao Angular como manipular um elemento ou componente.
+São elementos que adicionam comportamento a um componente. Elas podem ser estruturais, alterando a estrutura do DOM, ou atributivas, adicionando comportamento a um elemento existente. As diretivas são definidas por meio de uma classe TypeScript decorada com o @Directive. Em outras palavras, elas são marcadores no HTML que informam ao Angular como manipular um elemento ou componente.
 
 • *Rotas*
 
